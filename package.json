@@ -4,7 +4,7 @@
   "scripts": {
     "lite": "lite-server",
     "gulp": "gulp",
-    "start": "concurrent \"npm run gulp\" \"npm run lite\" "
+    "start": " \"npm run gulp\" \"npm run lite\" "
   },
   "license": "ISC",
   "dependencies": {
