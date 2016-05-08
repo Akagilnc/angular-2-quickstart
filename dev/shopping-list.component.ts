@@ -15,7 +15,7 @@ import {Component} from "angular2/core";
             >{{ shoppingListItem.name }}</li>
         </ul>
         <input type="text" [(ngModel)]="selectedItem.name" #shoppingListItem>
-        <button (click)="onDeleteItem()">Delete Item</button><br>
+        <button class="btn" (click)="onDeleteItem()">Delete Item</button><br>
         <input type="text" #shoppingListItem>
         <button (click)="onAddItem()">Add Item</button>
     `,
