@@ -1,3 +1,5 @@
 /node_modules
 /app
 /src
+/.idea
+.idea/workspace.xml
