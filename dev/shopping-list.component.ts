@@ -14,10 +14,12 @@ import {Component} from "angular2/core";
             (click)="onItemClicked(shoppingListItem)"
             >{{ shoppingListItem.name }}</li>
         </ul>
+        <div class="row">
         <input type="text" [(ngModel)]="selectedItem.name" #shoppingListItem>
-        <button class="btn" (click)="onDeleteItem()">Delete Item</button><br>
+        <button type="button" class="btn btn-danger" (click)="onDeleteItem()">Delete Item</button><br>
         <input type="text" #shoppingListItem>
-        <button (click)="onAddItem()">Add Item</button>
+        <button type="button" class="btn btn-primary"  (click)="onAddItem()">Add Item</button>
+        </div>
     `,
 
 })
